@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f19"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:visibility="visible"
+        app:srcCompat="@drawable/irman" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BIODATA"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAMA : IRMAN NOVRYANSAH"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NIM : 10118018"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="JENIS KELAMIN : LAKI-LAKI"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TEMPAT TANGGAL LAHIR : BANDUNG 30 NOVEMBER 1998"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ALAMAT : JLN.HOLIS 133"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GOLORANGAN DARAH : A"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MAKANAN KESUKAAN : MIE GORENG + NASI"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MINUMAN KESUKAAN : STARBUCKS COFFEE"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HOBI : BADMINTON"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LAGU FAVORIT : SAMPAI JUMPA - ENDANK SOEKAMTI"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FILM FAVORIT : START UP"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PEKERJAAN YANG DIINGINKAN SETELAH LULUS : DI KOMINFO "
+        android:textSize="15sp" />
+
+
+</LinearLayout>
